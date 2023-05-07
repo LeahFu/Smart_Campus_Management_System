@@ -1,4 +1,16 @@
 
 spring:
   datasource:
-    driver-class-name:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: LeahFu5149918186
+    url: jdbc:mysql://localhost:3306/Smart_Campus_Management_System?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=true
+    hikari:
+      minimum-idle: 10 # Minimum number of idle connections
+      maximum-pool-size: 10 # The maximum number of connections, the default is 10
+      idle-timeout: 120000 # The maximum time an idle connection can survive
+      connection-timeout: 30000 # The maximum time that a database connection can survive
+      connection-test-query: Select 1
+  jpa:
+    hibernate:
+      ddl-auto: update
