@@ -14,7 +14,7 @@ import java.sql.Timestamp;
 /**
  * @author: Lei Fu
  * @date: 2023/05/07
- * @description: base(public) entity
+ * @description: Base(public) entity
  */
 
 @Data
