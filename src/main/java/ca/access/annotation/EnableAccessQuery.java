@@ -50,7 +50,7 @@ public @interface EnableAccessQuery {
         ,LEFT_LIKE
         ,RIGHT_LIKE
         ,LESS_THAN_NQ
-        ,in
+        ,IN
         ,NOT_EQUAL
         ,BETWEEN
         ,NOT_NULL
